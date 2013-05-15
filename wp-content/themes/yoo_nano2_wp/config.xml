@@ -144,6 +144,10 @@
 		</field>
 		<field name="top-a" type="layout" default="equal" label="Top A Layout" description="Select a grid layout for this module position." />
 		<field name="top-b" type="layout" default="equal" label="Top B Layout" description="Select a grid layout for this module position." />
+		
+		<field name="left-absolute" type="layout" default="equal" label="Left Absolute" description="Select a grid layout for this module position." />
+		
+		
 		<field name="innertop" type="layout" default="equal" label="Inner Top Layout" description="Select a grid layout for this module position." />
 		<field name="innerbottom" type="layout" default="equal" label="Inner Bottom Layout" description="Select a grid layout for this module position." />
 		<field name="bottom-a" type="layout" default="equal" label="Bottom A Layout" description="Select a grid layout for this module position." />

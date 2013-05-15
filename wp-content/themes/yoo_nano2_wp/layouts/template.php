@@ -26,6 +26,16 @@ include($this['path']->path('layouts:template.config.php'));
 	</div>
 	<?php endif; ?>
 	
+	
+	<?php if ($this['modules']->count('left-absolute')) : ?>
+	<div id="absolute">
+		<?php echo $this['modules']->render('left-absolute'); ?>
+	</div>
+	<?php endif; ?>
+
+	
+	
+	
 	<div class="wrapper clearfix">
 
 		<header id="header">

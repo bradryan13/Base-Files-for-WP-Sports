@@ -27,6 +27,7 @@
 		<position>innerbottom</position>
 		<position>sidebar-a</position>
 		<position>sidebar-b</position>
+		<position>left-absolute</position>
 		<position settings="display">footer</position>
 	</positions>
 	<modulesettings>

@@ -42,7 +42,7 @@ if ($style == '') {
 //$content = '<ul class="line"><li>This is a demo text.</li><li><a href="#">Link</a></li></ul><ul class="zebra"><li>This is a demo text.</li><li><a href="#">Link</a></li></ul><a class="button-default" href="#">Read More</a><ul class="check"><li>Check List</li></ul><em>em Element</em><br /><em class="box">em with class box</em><br /><code>code Element</code><form class="short style"><div><input type="text"></div><div><textarea >Textarea text</textarea></div><div><button type="submit" name="Submit">Log in</button></div></form>';
 
 // force module style
-if (in_array($module->position, array('absolute', 'breadcrumbs', 'logo', 'banner', 'search', 'debug'))) {
+if (in_array($module->position, array('absolute', 'left-absolute', 'breadcrumbs', 'logo', 'banner', 'search', 'debug'))) {
 	$style = 'raw';
 	$showtitle = 0;
 }
