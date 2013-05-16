@@ -1,4 +1,6 @@
-<?php /* Template name: College Team */ ?>  
+<?php /* Template name: College Team */ 
+acf_form_head()
+?>  
 
 <?php 
 
